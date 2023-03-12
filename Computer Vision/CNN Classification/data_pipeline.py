@@ -35,7 +35,7 @@ class Tensorflow_dataset:
 		return img,label
 	
 	def preprocess_img(self,img,label):
-		return img/255.0,label\
+		return img/255.0,label
 
 	def train_gen(self):
 		for img,label in self.train_img:
